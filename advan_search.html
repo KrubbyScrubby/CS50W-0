@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">   
+    <metaname="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <head>
+        <title>Advanced Search</title>
+
+    </head>
+
+    <div align="right">        
+        <img align="left" style="margin-left: -20px" src="google.png" alt="Google" width="80px">
+        <a href="index.html">Search &ensp;</a>    
+        <a href="image_search.html">Images</a>
+
+    </div>
+    <body class="advstyle">
+        <p class="advlogo">Advanced Search</p>
+        <hr>       
+          
+        <form style="font-size: 15px;" action="https://www.google.com/search?page=image_search" method="get">
+            <div  class="row">    
+                <div style="font-size: 20px;" class="col-8">
+                    Find pages with:
+                </div>
+                <div style="font-size: 15px; padding-top: 10px; color: grey" class="col-4">
+                    To do this in the search box.
+                </div>
+            </div>
+                <div style="margin-bottom: -10px;" class="row">
+                    <div class="col-2" style="width: 11%">                        
+                        all these words:
+                    </div>
+                    <div class="col-6">
+                        <input class="advbox" type="text" name="as_q"/>
+                    </div>
+                    <div class="col-4" style="font-size: 13px;">
+                        Type the important words: tri-colour rat terrier
+                    </div>
+                </div> 
+
+                <div style="margin-bottom: -10px;" class="row">
+                    <div class="col-2" style="width: 11%">                        
+                        this exact word or phrase:
+                    </div>
+                    <div class="col-6">
+                        <input class="advbox" type="text" name="as_epq"/>
+                    </div>
+                    <div class="col-4" style="font-size: 13px;">
+                        Put exact words in quotes: "rat terrier"
+                    </div>
+                </div> 
+
+                <div style="margin-bottom: -10px;" class="row">
+                    <div class="col-2" style="width: 11%">                        
+                        any of these words:
+                    </div>
+                    <div class="col-6">
+                        <input class="advbox" type="text" name="as_oq"/>
+                    </div>
+                    <div class="col-4" style="font-size: 13px;">
+                        Type OR between all the words you want: miniature OR standard
+                    </div>
+                </div> 
+                <div style="margin-bottom: -10px;" class="row">
+                    <div class="col-2" style="width: 11%">                        
+                        none of these words:
+                    </div>
+                    <div class="col-6">
+                        <input class="advbox" type="text" name="as_eq"/>
+                    </div>
+                    <div class="col-4" style="font-size: 13px;">
+                        Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"
+                    </div>
+                </div> 
+                <div style="margin-bottom: -10px;" class="row">
+                    <div class="col-2" style="width: 11%">                        
+                        numbers ranging from:
+                    </div>
+                    <div class="col-2" style="width: 23.9%">
+                        <input class="advbox" type="text" name="as_nlo"/>
+                    </div>
+                    <div class="col-1" style="width: 2.2%">                        
+                        to
+                    </div>
+                    <div class="col-3" style="width: 23.9%">
+                        <input class="advbox" type="text" name="as_nhi"/>
+                    </div>
+                    <div class="col-2" style="font-size: 13px; width:23%">
+                        Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011
+                    </div>
+                </div> 
+                <div style="margin-bottom: -10px;" class="row">
+                    <div class="col-6" style="width: 52%" ></div>
+                    <div class="col-2" style="width: 9%"> 
+                        <input class="submit" type="submit" value="Advanced Search">
+                    </div>
+                </div>
+             
+        </form>
+    </body>
+</html>

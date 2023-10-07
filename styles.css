@@ -1,39 +1,90 @@
-h1 {
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: center
-
+@font-face {
+    font-family: "Product Sans";
+    src: url(Product\ Sans\ Regular.ttf) format("truetype");
 }
-div {
-
-    background-color: grey;
+html{
     padding: 20px;
-    padding-top: 50px
-
+    padding-left: 40px;
 
 
 }
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px
+
+
+.centrelogo{
+    font-size: 120px;
+    color:bisque;
+    -webkit-text-stroke: 3px black;
+    font-family: "Product Sans", Helvetica; 
 }
-button {
+.advlogo{
+    color: red;
+    font-size: 24px;
+    font-family: "Product Sans", Helvetica; 
+
+}
+hr {
+    width: calc(100% + 60px);
+    text-align: left;
+    margin-left: -30px;
+    padding-right: 60px;
+    padding-bottom: 20px;
+    
+}
+
+.advbox{
+
+    width:100%;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+.submit{
+    background-color: rgb(0, 102, 204);
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    width: 100%;
+    
+
+}
+.googlestyle{
+    width: 40%;
+    height: 52px;
+    border-radius: 30px;
+    resize: none;
+    padding: 13px 45px;
+    background-color: whitesmoke;
+    background-image: url('search.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+
+    
+
+}
+div{
+
+    margin-bottom: 20px;
+}
+.centrestyle {
+    font-family: "Product Sans", Helvetica; 
+    text-align: center;
+    background-image: url(Tbl_Mtn_Bcg.jpg);  
+}
+.advstyle{
+    font-family: "Product Sans", Helvetica; 
+    background-color: whitesmoke;
+
+
+}
+body
+.bgbutton {
     width: 200px;
-    background-color: grey;
+    color: bisque;
+    background-color: transparent;
 }
 button:hover{
-    background-color: blue
-}
-@media (min-width:600px) {
-    body{
-        background-color: red;                
-    }
-
-}
-@media (max-width:599px) {
-    body{
-        background-color: blue;                
-    }
-
+    background-color: grey;
 }
